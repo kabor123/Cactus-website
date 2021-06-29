@@ -1,0 +1,347 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#8db376,#295a4b);
+    width: 100vh;
+    height: 100vh;
+
+}
+.box
+{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.box img
+{
+    position: absolute;
+    top: 70vh;
+    left: 3%;
+    cursor: pointer;
+}
+h1
+{
+    color: white;
+    font-size: 8em;
+    font-family: Arial;
+    height: 11vh;
+}
+h1 span{
+    position: relative;
+    font-size: 0.2em;
+    font-family: Arial;
+    left: 2%;
+
+    
+}
+p
+{
+    position: relative;
+    color: white;
+    font-family: Arial;
+    left: 2vh;
+    font-size: 1.2em;
+}
+button
+{
+    position: relative;
+    background: none;
+    border: 2px solid #eaba4d;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    top: 4vh;
+    left: 3%;
+    cursor: pointer;
+}
+.box2
+{
+    position: fixed;
+    width: 45%;
+    height: 86%;
+    top: 14%;
+    left: 55%;
+    background: linear-gradient(#96bc7f,#d3edc5);
+    border-radius: 140px 0px 0px 0px;
+}
+.box2 img
+{
+    position: absolute;
+    left: -42%;
+    top: -9%;
+    width: 148%;
+}
+.box2 ul
+{
+    position: absolute;
+    left: 80%;
+    top: 15%;
+}
+.box2 ul li
+{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 0px;
+    background: none;
+    list-style: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 3em;
+    border: none;
+    margin-top: 65%;
+    cursor: pointer;
+    z-index: 3;
+}
+.box2 ul li:hover
+{
+    border: 2px solid white;
+}
+#li
+{
+    border: 2px solid white;
+}
+
+
+.box3
+{
+    position: fixed;
+    border-radius: 110px 0px 0px 0px;
+    top: 80vh;
+    left: 22vh;
+    width: 88%;
+    height: 20%;
+    background: linear-gradient(#d3edc5,#96bc7f);
+    overflow: hidden;
+}
+.text
+{
+    position: relative;
+    width: 58%;
+    height: 100%;
+    top: 0%;
+    left: 22%;
+    background: #24412f;
+}
+.text p
+{
+    width: 39%;
+    display: inline-flex;
+    margin: 5%;
+    font-weight: 600;
+}
+.slide
+{
+    position: relative;
+    left: 0%;
+    top: -100%;
+    width: 23%;
+    height: 100%;
+    background: #eaba4d;
+}
+.slide img
+{
+    width: 110%;
+}
+#logo
+{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+#icons
+{
+    position: absolute;
+    left: 77%;
+    top: 3%;
+    width: 12%;
+    cursor: pointer;
+    z-index: 4;
+}
+#ul
+{
+    position: fixed;
+    top: -5%;
+    left: 16%;
+    width: 90%;
+    z-index: 3;
+}
+#ul li
+{
+    display: inline-flex;
+    font-family: Arial;
+    font-size: 1.6em;
+    margin: 5%;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+#ul li:hover
+{
+    color: #eaba4d;
+}
+#home
+{
+    color: #eaba4d;
+}
+.head button
+{
+    position: fixed;
+    top: 0;
+    left: 91%;
+    background: #24412f;
+    border: none;
+    border-radius: 0px;
+    padding: 21px 25px;
+    cursor: pointer;
+    z-index: 3;
+}
+.menu
+{
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    background: linear-gradient(#8db376,#295a4b);
+        z-index: 5;
+    transition: 0.5s;
+    border-radius: 0px 0px 0px 150px;
+    left: 140%;
+}
+.menu ul li
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.6em;
+    margin: 30%;
+    height: 20%;
+    cursor: pointer;
+    color: #eaba4d;
+    list-style: none;
+    font-weight: 900;
+    
+}
+.menu.active
+{
+    left: 70%;
+}
+@media (max-width: 1000px)
+{
+    body
+    {
+        height: 120vh;
+    }
+    .box
+    {
+        position: fixed;
+        top: 2%;
+        left: 16%;
+    }
+    .box img
+    {
+        width: 12%;
+        left: -15%;
+        top: 80vh;
+    }
+    h1
+    {
+        font-size: 14em;
+    }
+    .box p
+    {
+        font-size: 3em;
+        width: 100%;
+    }
+    #icons
+    {
+        position: fixed;
+        width: 40%;
+        top: 0%;
+        left: 40%;
+        
+    }
+    #logo
+    {
+        position: fixed;
+        width: 30%;
+        left: 0;
+        top: 0;
+    }
+    .head img
+    {
+        width: 150%;
+    }
+    .head button
+    {
+        padding: 70px 90px;
+        left: 83%;
+    }
+    .box2
+    {
+        width: 90%;
+        height: 50%;
+        left: 17%;
+        top: 33%;
+    }
+    .box3
+    {
+        width: 130%;
+        height: 20%;
+        left: 0;
+        top: 80%;
+    }
+    .box3 p
+    {
+        font-size: 3em;
+        width: 90%;
+    }
+    .box2 ul
+    {
+        top: 28%;
+    }
+    .box2 ul li
+    {
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        line-height: 0%;
+        background: none;
+        font-size: 9em;
+
+    }
+    #li
+    {
+        border: 8px solid white;
+    }
+    .box2 ul li:hover
+    {
+        border: 8px solid white;
+    }
+    .box button
+    {
+        visibility: hidden;
+    }
+    .menu ul li
+    {
+        font-size: 3em;
+        line-height: 30vh;
+    }
+    .box ul
+    {
+        visibility: hidden;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+

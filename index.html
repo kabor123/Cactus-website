@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1><span>PLANTS</span><br>CACTUS</h1>
+            <p>The fascinating & amazing world of cacti and succulents</p>
+            <button>Shop Now</button>
+            <img onclick="imgSlider('img-d.png');" src="arrow.png" alt="">
+
+
+        </div>
+
+        <div class="box2">
+            <img id="cactus" src="img.png" alt="">
+            <ul>
+                <li id="li" onclick="imgSlider('img.png');"><span>.</span></li>
+                <li onclick="imgSlider('img-a.png');"><span>.</span></li>
+                <li onclick="imgSlider('img-b.png');"><span>.</span></li>
+                <li onclick="imgSlider('img-c.png');"><span>.</span></li>
+                <li onclick="imgSlider('img-d.png');"><span>.</span></li>
+
+            </ul>
+
+        </div>
+
+        <div class="box3">
+            <div class="text">
+                <p>cacti & succlents are particularly easy indoor plants to care for</p>
+                <p id="p">Requiring very little maintenance,theyare idealfor every plant lover.</p>
+            </div>
+            <div class="slide">
+                <img src="img1.png" alt="">
+            </div>
+
+
+        </div>
+        <div class="head">
+            <ul id="ul">
+                <li id="home">Home</li>
+                <li>Catalogue</li>
+                <li>Sale%</li>
+            </ul>
+            <img id="logo" src="logo.png" alt="">
+            <img id="icons" src="icons.png" alt="">
+            <button onclick="toggle();"><img src="set.png" alt=""></button>
+
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Catalogue</li>
+                <li>Sale%</li>
+            </ul>
+        </div>
+
+        <script type="text/javascript">
+        function toggle(){
+            var menu = document.querySelector('.menu')
+            menu.classList.toggle('active')
+
+        }
+        function imgSlider(anything){
+            document.querySelector('#cactus').src = anything
+        }
+            
+        </script>
+
+    </body>
+</html>
